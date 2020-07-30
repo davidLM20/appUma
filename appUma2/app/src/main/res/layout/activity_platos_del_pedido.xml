@@ -17,13 +17,13 @@
         android:layout_marginRight="101dp"
         android:layout_marginBottom="53dp"
         android:text="Registara Platos del Pedido"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumPedido"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCargar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonCargar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -45,12 +45,12 @@
         android:layout_marginBottom="39dp"
         android:text="Numero de Pedido"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumPedido"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextNumPedido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="37dp"
@@ -61,7 +61,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCargar" />
 
     <TextView
         android:id="@+id/textView7"

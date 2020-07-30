@@ -12,16 +12,21 @@
         android:layout_height="wrap_content"
         android:text="Numero de Pedido"
         app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPersonName7"
-        tools:layout_editor_absoluteX="21dp" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
         android:text="Buscar"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="311dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
@@ -30,8 +35,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout4"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        tools:layout_editor_absoluteX="185dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 
     <TextView
         android:id="@+id/textView15"
@@ -39,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="Platos del pedido"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="171dp" />
+        tools:layout_editor_absoluteY="217dp" />
 
     <TableLayout
         android:id="@+id/tableLayout4"
@@ -72,7 +79,9 @@
         android:layout_height="wrap_content"
         android:text="Numero de mesa"
         app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPersonName8"
-        tools:layout_editor_absoluteX="23dp" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
@@ -81,8 +90,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName9"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout4"
-        tools:layout_editor_absoluteX="189dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
 
     <TextView
         android:id="@+id/textView17"
@@ -90,7 +101,9 @@
         android:layout_height="wrap_content"
         android:text="Tiempo Aproximado"
         app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPersonName9"
-        tools:layout_editor_absoluteX="23dp" />
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
@@ -99,8 +112,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/btnAgregarAdicionales"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8"
-        tools:layout_editor_absoluteX="185dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
     <Button
         android:id="@+id/btnAgregarAdicionales"

@@ -82,13 +82,13 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnIngreso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/editTextUsuario" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIngreso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="153dp"

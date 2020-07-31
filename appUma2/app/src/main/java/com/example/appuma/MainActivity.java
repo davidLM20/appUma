@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         //tvBoton = (TextView) findViewById(R.id.btnIngreso);
 
         edtUsuario = findViewById(R.id.editTextUsuario);
-        edtPass = findViewById(R.id.editTextTextPass);
+        edtPass = findViewById(R.id.editTextPassword);
         btnIngresar = findViewById(R.id.btnIngreso);
 
 
@@ -86,10 +86,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> parametros=new HashMap<String,String>();
-                //parametros.put("cedula",usuario);
-                //parametros.put("codigo",pass);
-                parametros.put("cedula","12002");
-                parametros.put("codigo","gabda02");
+                parametros.put("cedula",usuario);
+                parametros.put("codigo",pass);
+                //parametros.put("cedula","12002");
+                //parametros.put("codigo","gabda02");
                 return parametros;
             }
         };
@@ -113,5 +113,4 @@ public class MainActivity extends AppCompatActivity {
         edtUsuario.setText(preferences.getString("cedula","mail@mail.com"));
         edtPass.setText(preferences.getString("password","123456"));
     }
-
 }
